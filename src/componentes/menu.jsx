@@ -30,16 +30,16 @@ function Menu({item1, item2, item3, item4}) {
 
       <ul className={`${mostrarMenu ? "contenedor__menu__ul--activo" : "contenedor__menu__ul"}`}>
         <li className="contenedor__menu__ul__li">
-          <a href="#"> {item1} </a>
+          <a href=""> {item1} </a>
         </li>
         <li className="contenedor__menu__ul__li">
-          <a href="#"> {item2} </a>
+          <a href=""> {item2} </a>
         </li>
         <li className="contenedor__menu__ul__li">
-          <a href="#"> {item3} </a>
+          <a href=""> {item3} </a>
         </li>
         <li className="contenedor__menu__ul__li">
-          <a href="#"> {item4} </a>
+          <a href=""> {item4} </a>
         </li>
       </ul>
     </div>
